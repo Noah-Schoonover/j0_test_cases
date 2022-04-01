@@ -1,0 +1,47 @@
+digraph {
+	N0 [shape=rectangle label=<ClassDecl>]
+	N1 [shape=rectangle style=dotted label=<PUBLIC<br/> text: public <br/> line: 1>]
+	N0 -> N1
+	N2 [shape=rectangle style=dotted label=<IDENTIFIER<br/> text: hello <br/> line: 1>]
+	N0 -> N2
+	N3 [shape=rectangle label=<MethodDecl>]
+	N0 -> N3
+	N4 [shape=rectangle label=<MethodHeader>]
+	N3 -> N4
+	N5 [shape=rectangle label=<MethodModifiers>]
+	N4 -> N5
+	N6 [shape=rectangle style=dotted label=<PUBLIC<br/> text: public <br/> line: 2>]
+	N5 -> N6
+	N7 [shape=rectangle style=dotted label=<STATIC<br/> text: static <br/> line: 2>]
+	N5 -> N7
+	N8 [shape=rectangle style=dotted label=<VOID<br/> text: void <br/> line: 2>]
+	N4 -> N8
+	N9 [shape=rectangle label=<MethodDeclarator>]
+	N4 -> N9
+	N10 [shape=rectangle style=dotted label=<IDENTIFIER<br/> text: main <br/> line: 2>]
+	N9 -> N10
+	N11 [shape=rectangle label=<FormalParam>]
+	N9 -> N11
+	N12 [shape=rectangle style=dotted label=<STRING<br/> text: String <br/> line: 2>]
+	N11 -> N12
+	N13 [shape=rectangle label=<VarDeclarator>]
+	N11 -> N13
+	N14 [shape=rectangle label=<VarDeclaratorArrayID>]
+	N13 -> N14
+	N15 [shape=rectangle style=dotted label=<IDENTIFIER<br/> text: argv <br/> line: 2>]
+	N14 -> N15
+	N16 [shape=rectangle label=<MethodCall P>]
+	N3 -> N16
+	N17 [shape=rectangle label=<QualifiedName>]
+	N16 -> N17
+	N18 [shape=rectangle style=dotted label=<IDENTIFIER<br/> text: System <br/> line: 3>]
+	N17 -> N18
+	N19 [shape=rectangle label=<QualifiedName>]
+	N17 -> N19
+	N20 [shape=rectangle style=dotted label=<IDENTIFIER<br/> text: out <br/> line: 3>]
+	N19 -> N20
+	N21 [shape=rectangle style=dotted label=<IDENTIFIER<br/> text: println <br/> line: 3>]
+	N19 -> N21
+	N22 [shape=rectangle style=dotted label=<STRING_LITERAL<br/> text: "hello, jzero!" <br/> line: 3>]
+	N16 -> N22
+}
