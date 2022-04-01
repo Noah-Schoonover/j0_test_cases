@@ -1,7 +1,8 @@
 public class hello {
 
-	int penis;
-	int weiner;
+	int p;
+	int w;
+	int c[];
 
 	public static int foo() {
 		int j;
