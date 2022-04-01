@@ -1,10 +1,10 @@
 public class hello {
 	void f() {
-	   int thread_local = 5;
-	   return thread_local;
+	   System.out.println("FFFFFFFF!");
 	}
 
    int main(String argv[]) {
+	   f();
       System.out.println("hello, jzero!");
    }
 }
