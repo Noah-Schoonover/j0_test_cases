@@ -1,4 +1,3 @@
-public class test2 { static int f() {
+public class test2 {
    System.out.println("hello");
-} }
-// test2.java output [expect syntax error on line 5]
+}

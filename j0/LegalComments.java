@@ -1,3 +1,4 @@
+/*sdlkfjasld;fkajsf;slkaj*/
 public class hello {
    public static void main(String argv[]) {
       System.out.println("hello, jzero!");
@@ -10,7 +11,7 @@ public class hello {
 	  /*******hello******/
 	  /******* hello ******/
 	  /* * * * * hsdlfisjf * * * * */
-
+	  /* sdlfksjdf ///////////////sdfasdklfj */
 	  // single line comments
 	  //////////////super slashes
 	  ///////////////// super duper slashes
@@ -43,3 +44,4 @@ public class hello {
 	   **************************************/
    }
 }
+/******************/

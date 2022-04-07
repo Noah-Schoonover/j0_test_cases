@@ -2,16 +2,16 @@ public class HelloWorld{
   //checking single line
   /*multiple
   lines*/
-  int a;
-  char a;
-  float a;
-  boolean a;
-  String a;
-  int a;
+  public static int a;
+  public static char a;
+  public static float a;
+  public static boolean a;
+  public static String a;
+  public static int a;
   //short a;
-  long a;
-  double a;
-  int num[];
+  public static long a;
+  public static double a;
+  public static int num[];
   public static void main(){
     a = 5;
     a = 'a';

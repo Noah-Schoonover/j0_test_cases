@@ -1,9 +1,11 @@
 public class hello {
-    int aaa;
-    int i;
+    public static int aaa = 5;
+    public static int i;
    public static void main(String argv[]) {
-      a = 15;
-      for(i = 1; i < a; i++){
+      aaa = 15;
+	  int i;
+
+      for(i = 1; i < aaa; i++){
           System.out.println("juicy\t");
       }
 

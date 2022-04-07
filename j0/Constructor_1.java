@@ -1,6 +1,6 @@
 // Create a Main class
 public class Main {
-	int x;  // Create a class attribute
+	public static int x;  // Create a class attribute
 
 	// Create a class constructor for the Main class
 	public Main() {

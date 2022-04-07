@@ -1,6 +1,7 @@
 public class IfElseClass {
    public static void main(String argv[]) {
-
+	   boolean t;
+	   boolean f;
 	  if (t) { }
 
 	  if (true) {
@@ -17,6 +18,8 @@ public class IfElseClass {
 		  doSomethingElse("hello");
 	  }
 
+	  int x;
+	  int y;
 	  if (t) {
 		  a = a + b;
 	  } else if (x > y) {

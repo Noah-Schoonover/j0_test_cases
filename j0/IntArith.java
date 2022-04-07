@@ -1,6 +1,6 @@
 public class hello {
-    int a;
-    int i;
+    public static int a;
+    public static int i;
     public static void main(String argv[]) {
         i = a * 4 + 2;
         a = 15;

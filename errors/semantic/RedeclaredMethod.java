@@ -5,6 +5,10 @@ public class hello {
 		int i = 1;
 	}
 
+	public static char poo() {
+
+	}
+
 	public static void main(String argv[]) {
 		int p;
 		int q = 3;
