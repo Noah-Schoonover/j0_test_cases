@@ -1,6 +1,6 @@
 public class hello {
 	public static void main(String argv[]) {
-       	int x;
- 	  	x = 6.0;
+       	char x;
+ 	  	x = 55.55;
     }
 }

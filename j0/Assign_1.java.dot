@@ -42,6 +42,6 @@ digraph {
 	N14 -> N20
 	N21 [shape=rectangle style=dotted label=<IDENTIFIER<br/> text: x <br/> line: 4>]
 	N20 -> N21
-	N22 [shape=rectangle style=dotted label=<INT_LITERAL<br/> text: 6 <br/> line: 4>]
+	N22 [shape=rectangle style=dotted label=<REAL_LITERAL<br/> text: 6.0 <br/> line: 4>]
 	N20 -> N22
 }
