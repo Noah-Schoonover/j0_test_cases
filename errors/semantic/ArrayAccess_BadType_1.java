@@ -1,6 +1,7 @@
 public class hello {
 	public static void main(String argv[]) {
-       	int x;
- 	  	x = 6;
+       	String arr = "hi";
+		arr[2] = "hello";
+		arr[3] = arr[2];
     }
 }

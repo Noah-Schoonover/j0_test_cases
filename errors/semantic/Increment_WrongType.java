@@ -6,6 +6,7 @@ public class hello {
 	  i++;
 	  aaa = 'c';
 	  aaa++;
+	  "hello"++;
 
    }
 }

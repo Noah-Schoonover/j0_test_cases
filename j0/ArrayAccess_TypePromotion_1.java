@@ -1,6 +1,6 @@
 public class hello {
 	public static void main(String argv[]) {
-       	int x;
- 	  	x = 6;
+       	int[] arr = new int[5];
+		arr[2] = 'c';
     }
 }

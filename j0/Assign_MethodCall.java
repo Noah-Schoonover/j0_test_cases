@@ -4,7 +4,7 @@ public class hello {
 	}
 
    public static void main(String argv[]) {
-	   	int x;
+	   	float x;
 	   	x = f();
    }
 }

@@ -1,30 +1,32 @@
 public class IfElseClass {
    public static void main(String argv[]) {
-	   boolean t;
-	   boolean f;
-	  if (t) { }
+	   boolean b1 = true;
+	   boolean b2 = false;
+	  if (b1) { }
 
 	  if (true) {
-		  doSomething(abc, def, ghi);
+
 	  }
 
-      if (t == true && f == false || 4 > 5) {
+      if (b1 == true && b2 == false || 4 > 5) {
 		  // do nothing
 	  }
 
 	  if (true) {
-		  doSomething(true);
+		  b1 = false;
 	  } else {
-		  doSomethingElse("hello");
+		  b1 = b2;
 	  }
 
-	  int x;
-	  int y;
-	  if (t) {
+	  int a = 4;
+	  int b = 4;
+	  int x =3;
+	  int y=4;
+	  if (b1) {
 		  a = a + b;
 	  } else if (x > y) {
 		  a = a - b;
-		  doSomething(55);
+		  a++;
 	  } else if (x < y) {
 		  a = a * b;
 	  } else {
