@@ -1,6 +1,12 @@
 public class hello {
-	public static void f(int i, int j, int k, char c, String[] arr) {
-	   //System.out.println("FFFFFFFF!");
+	public static int f(int i, int j, int k, char c, String[] arr) {
+	   int x;
+	   x = i;
+	   int y;
+	   y = j;
+	   int z;
+	   z = k;
+	   return 5;
 	}
 
    public static void main(String argv[]) {
@@ -9,7 +15,8 @@ public class hello {
 	   int[] intArr = new int[5];
 	   String[] strArr = new String[5];
 	   // f(a, 3, 4, d, strArr);
-	   f(a, 3, 4, d, strArr);
-      //System.out.println("hello, jzero!");
+	   int r;
+	   r = f(a, 3+5, 4, d, strArr);
+
    }
 }
